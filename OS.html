@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>OS Lab</title>
+    <style>
+        .btn1 {
+          border-radius: 4px;
+          background-color: #f4511e;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 15px;
+          padding: 20px;
+          width: 200px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        
+        .btn1 span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .btn1 span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .btn1:hover span {
+          padding-right: 25px;
+        }
+        
+        .btn1:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        
+.dropbtn {
+  background-color: #dd10a3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1474e2;
+}
+.button11{
+  text-align: center;
+}
+body{
+  background-image: url('bg7.jfif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+        </style>
+</head>
+<body>
+   <h4>Cilck the title to view the programs</h4> 
+    <br>
+    <div class="dropdown" style="float:right;">
+        <button class="dropbtn"><i class="fa fa-download"></i><a href="./Mannuls/sem4/OS_Record_Final_Print.pdf">Full PDF Download</a></button>
+        <div class="dropdown-content">
+    </div>
+    </div>
+    <br>
+    <br><br><br>
+    <div class="button11">
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex1a.pdf" target="_blank">1a.BASICS UNIX COMMANDS</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex1b.pdf" target="_blank">1b.SYSTEM CALLS OF UNIX OPERATING SYSTEM</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex2.pdf" target="_blank">2.SIMULATION OF UNIX COMMANDS (GREP, CP, LS)   </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3a.pdf" target="_blank">3a.SHELL PROGRAMMING  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3b.pdf" target="_blank">3b.SHELL PROGRAMMING – BIGGEST OF TWO NUMBERS   </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3c.pdf" target="_blank">3c.SHELL PROGRAMMING – BIGGEST OF THREE NUMBERS </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3d.pdf" target="_blank">3d.SHELL PROGRAMMING – NATURAL NUMBERS UPTO ‘N’ </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3e.pdf" target="_blank">3e.SHELL PROGRAMMING – NATURAL NUMBERS USING FOR LOOP  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3f.pdf" target="_blank">3f.SHELL PROGRAMMING – ARITHMETIC OPERATIONS   </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3g.pdf" target="_blank">3g.SHELL PROGRAMMING – GROSS SALARY OF AN EMPLOYEE   </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex3h.pdf" target="_blank">3h.SHELL PROGRAMMING – FACTORIAL OF A NUMBER </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex4a.pdf" target="_blank">4a.CPU SCHEDULING ALGORITHMS </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex4b.pdf" target="_blank">4b.SHORTEST JOB FIRST – SCHEDULING ALGORITHM </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex4c.pdf" target="_blank">4c.PRIORITY – SCHEDULING ALGORITHM</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex4d.pdf" target="_blank">4d.ROUND ROBIN – SCHEDULING ALGORITHM  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex5.pdf" target="_blank">5.SEMAPHORES  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex6a.pdf" target="_blank">6a.SHARED MEMORY </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex6b.pdf" target="_blank">6b.IPC – CHAT MESSAGING</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex7a.pdf" target="_blank">7a.DEADLOCK AVOIDANCE – BANKER’S ALGORITHM</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex7b.pdf" target="_blank">7b.DEADLOCK DETECTION – BANKER’S ALGORITHM </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex8a.pdf" target="_blank">8a.IMPLEMENTATION OF THREADING AND SYNCHRONIZATION APPLICATIONS  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex8b.pdf" target="_blank">8b.MEMORY ALLOCATION METHODS FOR FIXED PARTITION</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex9.pdf" target="_blank">9.PAGING TECHNIQUE OF MEMORY MANAGEMENT</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex10.pdf" target="_blank">10a.PAGE REPLACEMENT ALGORITHMS </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex10b.pdf" target="_blank">10b.LRU PAGE REPLACEMENT ALGORITHM</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex10c.pdf" target="_blank">10c.OPTIMAL (LFU) PAGE REPLACEMENT ALGORITHM  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex11a.pdf" target="_blank">11a.VARIOUS FILE ORGANIZATION TECHNIQUES   </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex11b.pdf" target="_blank">11b.IMPLEMENTATION OF TWO-LEVEL DIRECTORY  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex12a.pdf" target="_blank">12a.FILE ALLOCATION STRATEGIES </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex12b.pdf" target="_blank">12b.FILE ALLOCATION STRATEGIES – INDEXED FILE ALLOCATION </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem4/OS/Ex12c.pdf" target="_blank">12c.FILE ALLOCATION STRATEGIES – LINKED FILE ALLOCATION  </a></button><br>
+    
+    
+    </div>
+
+
+</body>
+</html>

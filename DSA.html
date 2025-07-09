@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>DSA Lab</title>
+    <style>
+        .btn1 {
+          border-radius: 4px;
+          background-color: #f4511e;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 15px;
+          padding: 20px;
+          width: 200px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        
+        .btn1 span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .btn1 span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .btn1:hover span {
+          padding-right: 25px;
+        }
+        
+        .btn1:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        
+.dropbtn {
+  background-color: #dd10a3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1474e2;
+}
+.button11{
+  text-align: center;
+}
+body{
+  background-image: url('bg7.jfif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+        </style>
+</head>
+<body>
+   <h4>Cilck the title to view the programs</h4> 
+    <br>
+    <div class="dropdown" style="float:right;">
+        <button class="dropbtn"><i class="fa fa-download"></i><a href="./Mannuls/sem3/dsa lab-it-labmanual.pdf">Full PDF Download</a></button>
+        <div class="dropdown-content">
+    </div>
+    </div>
+    <br>
+    <br><br><br>
+    <div class="button11">
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 1.pdf" target="_blank">1A.ARRAY IMPLEMENTATION OF STACK</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 1b.pdf" target="_blank">1B.QUEUE ADT USING ARRAY</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 2.pdf" target="_blank">2.ARRAY IMPLEMENTATION OF LIST ADT
+    </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 3a.pdf" target="_blank">3A.STACK ADT USING LINKED LIST  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 3b.pdf" target="_blank">3B. QUEUE ADT USING LINKED LIST
+
+        (without using temp variable)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 4a.pdf" target="_blank">4A.REPRESENT A POLYNOMIAL AS A LINKED</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 4b.pdf" target="_blank">4B.CONVERSION OF INFIX EXPRESSION TO POSTFIX
+        NOTATION</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 5.pdf" target="_blank">5.MPLEMENTATION BINARY TREE AND OPERATIONS OF BINARY TREES </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 6.pdf" target="_blank">6.IMPLEMENTATION OF BINARY SEARCH TREE
+        (1,2,8,16,32...n)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 7.pdf" target="_blank">7.IMPLEMENTATION OF AVL TREE  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 8.pdf" target="_blank">8.IMPLEMENTATION OF PRIORITY QUEUE USING </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 9.pdf" target="_blank">9.HASHING TECHNIQUES  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX  10a.pdf" target="_blank">10A.GRAPH REPRESENTATIONS </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 10b.pdf" target="_blank">10B.Implement DFS and BFS graph traversal</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 11a.pdf" target="_blank">11A.IMPLEMENTATION OF SEARCHING ALGORITHMS LINEAR SEARCH AND
+        BINARY SEARCH </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 11b1.pdf" target="_blank">11B1. BUBBLE SORT </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 11b2.pdf" target="_blank">11B2.MERGE SORT </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem3/DSA lab/EX 11b3.pdf" target="_blank">11B3.QUICK SORT</a></button><br>
+    
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Program for practice.pdf" target="_blank">Program for practice </a></button><br>
+    
+    </div>
+
+
+</body>
+</html>

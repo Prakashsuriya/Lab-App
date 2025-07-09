@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Python Lab</title>
+    <style>
+        .btn1 {
+          border-radius: 4px;
+          background-color: #f4511e;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 15px;
+          padding: 20px;
+          width: 200px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        
+        .btn1 span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .btn1 span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .btn1:hover span {
+          padding-right: 25px;
+        }
+        
+        .btn1:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        
+.dropbtn {
+  background-color: #dd10a3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1474e2;
+}
+.button11{
+  text-align: center;
+}
+body{
+  background-image: url('bg7.jfif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+        </style>
+</head>
+<body>
+   <h4>Cilck the title to view the programs</h4> 
+    <br>
+    <div class="dropdown" style="float:right;">
+        <button class="dropbtn"><i class="fa fa-download"><a href="./Mannuls/sem1/Python Sem1.pdf"></i>Full PDF Download</a></button>
+        <div class="dropdown-content">
+    </div>
+    </div>
+    <br>
+    <br><br><br>
+    <div class="button11">
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 1a.pdf" target="_blank">1a.ELECTRICITY BILLING</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 1b.pdf" target="_blank">1b.RETAIL SHOP BILLING</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 1c.pdf" target="_blank">1c.SIN SERIES  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 1d.pdf" target="_blank">1d.ECOMUPUTE ELECTRIC CURRENT IN THREE PHASE AC CIRCUIT  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 2a.pdf" target="_blank">2a.EXCHANGE THE VALUES OF TWO VARIABLES
+        (without using temp variable)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 2b.pdf" target="_blank">2b.CIRCULATE THE VALUES OF N VARIABLES </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 2c.pdf" target="_blank">2c.DISTANCE BETWEEN TWO POINTS</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 3a.pdf" target="_blank">3a.FIBONACCI SERIES  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 3b.pdf" target="_blank">3b.NUMBER SERIES
+        (1,2,8,16,32...n)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 3c.pdf" target="_blank">3c.NUMBER PATTERN  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 3d.pdf" target="_blank">3d.TRIANGLE PYRAMID  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 4a.pdf" target="_blank">4a.OPERATIONS OF LIST </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 4b.pdf" target="_blank">4b.OPERATIONS OF TUPLE </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 5a.pdf" target="_blank">5a.OPERATIONS OF SETS </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 5b.pdf" target="_blank">5b.OPERATIONS OF DICTIONARY </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 6a.pdf" target="_blank">6a.FACTORIAL USING FUNCTION  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 6b.pdf" target="_blank">6b.LARGEST NUMBER IN A LIST USING FUNCTION </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 6c.pdf" target="_blank">6c.AREA OF SHAPE USING FUNCTION</a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 7a.pdf" target="_blank">7a.STRING REVERSE </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 7b.pdf" target="_blank">7b.PALINDROME </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 7c.pdf" target="_blank">7c.CHARACTER COUNT  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 7d.pdf" target="_blank">7d.REPLACING CHARACTERS </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 8a.pdf" target="_blank">8a.PROGRAMS USING WRITTEN MODULES AND PYTHON
+        STANDARD LIBRARIES(numpy) </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 8b.pdf" target="_blank">8b.PANDAS WORKING WITH TEXT DATA </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 8c.pdf" target="_blank">8c.LINE IN A DIAGRAM </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 8d.pdf" target="_blank">8d.MARK EACH POINT WITH A STAR  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 8e.pdf" target="_blank">8e.SOLVING A SET OF EQUATIONS  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 9a.pdf" target="_blank">9a.REAL-TIME/TECHNICAL APPLICATIONS USING FILE
+        HANDLING. (copy from one file to another)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 9b.pdf" target="_blank">9b.REAL-TIME/TECHNICAL APPLICATIONS USING FILE
+        HANDLING. (word count)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 9c.pdf" target="_blank">9c.REAL-TIME/TECHNICAL APPLICATIONS USING FILE
+        HANDLING. (longest word)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 10 a.pdf" target="_blank">10a.REAL-TIME/TECHNICAL APPLICATIONS USING
+        EXCEPTION HANDLING. (divide by zero error)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 10b.pdf" target="_blank">10b.REAL-TIME/TECHNICAL APPLICATIONS USING
+        EXCEPTION HANDLING. (voter’s age validity) </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 10c.pdf" target="_blank">10c.REAL-TIME/TECHNICAL APPLICATIONS USING
+        EXCEPTION HANDLING. (display of students mark)  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 11.pdf" target="_blank">11.EXPLORING PYGAME TOOL.  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 12a.pdf" target="_blank">12a.BOUNCING BALL  </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Ex 12b.pdf" target="_blank">12b.MOVING AN OBJECT ON KEYPRESS </a></button><br>
+    <button class="btn" style="width:60%"><a href="./Mannuls/sem1/Program for practice.pdf" target="_blank">Program for practice </a></button><br>
+    
+    </div>
+
+
+</body>
+</html>
